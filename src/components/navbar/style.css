@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    background-color: lightslategrey;
+    height: 8rem;
+    color: whitesmoke;
+}
+
+.header-menu {
+    display: flex;
+    gap: 3rem;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header-menu a:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,86 @@
+.container-login {
+    width: 100vw;
+    height: calc(100vh - 8rem);
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-login {
+    width: 40rem;
+    height: 20rem;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+button {
+    all: unset;
+}
+
+.input-login {
+    background-color: white;
+    border-radius: 1rem;
+    width: 60%;
+    padding: 0.5rem;
+    height: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    mix-blend-mode: hard-light;
+}
+
+.username {
+    margin-top: 7rem;
+}
+
+.btn-login {
+    color: white;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn-login:hover {
+    background-color: white;
+    color: #141E30;
+}
+
+.btn-login-logout {
+    background-color: #243B55;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
